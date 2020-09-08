@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/phase_unit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:background="#19338E">
+
+        <TextView
+            android:id="@+id/phase_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phase"
+            android:textColor="@color/yellow"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/unit_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phase_number"
+            android:text="Unit A"
+            android:textSize="24sp"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_right"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/right_arrow" />
+
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_result_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phase_unit_layout"
+        android:background="@android:color/white" />
+
+
+</RelativeLayout>

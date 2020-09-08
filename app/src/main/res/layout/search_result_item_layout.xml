@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+
+    <TextView
+        android:id="@+id/step_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step Name - In Review"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/activity_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step_name_text_view"
+        android:text="Activity Names Comes Here"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/activity_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="6dp"
+        android:layout_below="@id/activity_name_text_view"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="15dp"
+        android:max="100"
+        android:progress="40"
+        android:progressDrawable="@drawable/progress_drawable" />
+
+    <TextView
+        android:id="@+id/activity_progress_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_name_text_view"
+        android:layout_toEndOf="@id/activity_progress_bar"
+        android:text="40%"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>

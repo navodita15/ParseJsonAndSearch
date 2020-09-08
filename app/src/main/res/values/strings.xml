@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JsonDataLocalDbApp</string>
+    <string name="splash_screen_image">splash_screen_image</string>
+    <string name="enter_search_terms_here">enter search terms here</string>
+    <string name="search_placeholder">search placeholder</string>
+    <string name="type_to_start_searching_for">Type to start searching for</string>
+    <string name="units_activity_status">Units, Activity, Status</string>
+    <string name="term_not_found">Term not found</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="right_arrow">right arrow</string>
+</resources>
