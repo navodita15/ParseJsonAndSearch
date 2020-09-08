@@ -1,4 +1,4 @@
-package com.example.jsondatalocaldbapp
+package com.example.jsondatalocaldbapp.viewmodel
 
 import android.app.Application
 import android.util.Log
@@ -6,6 +6,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.jsondatalocaldbapp.model.Block
+import com.example.jsondatalocaldbapp.readAssets
 import io.realm.Realm
 import io.realm.Sort
 

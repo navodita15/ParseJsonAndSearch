@@ -1,12 +1,13 @@
 @file:Suppress("DEPRECATION")
 
-package com.example.jsondatalocaldbapp
+package com.example.jsondatalocaldbapp.model
 
 import android.util.Log
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.example.jsondatalocaldbapp.model.Units
+import com.example.jsondatalocaldbapp.view.SearchRecyclerFragment
 import io.realm.RealmList
 
 class SearchViewPagerAdapter(

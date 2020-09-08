@@ -1,4 +1,4 @@
-package com.example.jsondatalocaldbapp
+package com.example.jsondatalocaldbapp.view
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -13,7 +13,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.viewpager.widget.ViewPager
+import com.example.jsondatalocaldbapp.*
+import com.example.jsondatalocaldbapp.model.SearchAdapter
+import com.example.jsondatalocaldbapp.model.SearchViewPagerAdapter
 import com.example.jsondatalocaldbapp.model.Units
+import com.example.jsondatalocaldbapp.viewmodel.DatabaseViewModel
 import com.google.android.material.tabs.TabLayout
 import io.realm.RealmList
 import android.os.Handler as Handler1

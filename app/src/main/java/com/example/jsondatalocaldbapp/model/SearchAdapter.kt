@@ -1,4 +1,4 @@
-package com.example.jsondatalocaldbapp
+package com.example.jsondatalocaldbapp.model
 
 import android.content.Context
 import android.util.Log
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.jsondatalocaldbapp.model.Units
+import com.example.jsondatalocaldbapp.R
 import io.realm.OrderedRealmCollection
 import io.realm.RealmRecyclerViewAdapter
 
